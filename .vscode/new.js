@@ -11,8 +11,7 @@ function getSumNum(a, b) {
   
     return customPromise
   }
-  
-  // consuming the promise
+
   getSumNum(1, 3).then(data => {
     console.log(data)
   })
